@@ -39,7 +39,7 @@ function addData() {
           icon: "success",
           title: "Thanks" ,
           text: "Done Validation",
-          timer: 1700,
+          timer: 1500,
           buttons:false,
       })
   } else {
@@ -61,7 +61,7 @@ function clearValid() {
     bookmarksUrlInp.classList.remove('is-valid','is-invalid')
 }
 function validationMail(mail) {
-  var regX = /^(https:\/\/|www\.)[\w\S]+\.[a-z]{2,5}$/;
+  var regX = /^(https:\/\/|www\.)[\w\S]+(\.[a-z]{2,5})?$/;
     if (regX.test(mail.value)) {
         document.getElementById('urlError').innerHTML =''
 
