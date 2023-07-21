@@ -39,7 +39,7 @@ function addData() {
           icon: "success",
           title: "Thanks" ,
           text: "Done Validation",
-          timer: 1500,
+          timer: 1250,
           buttons:false,
       })
   } else {
